@@ -1,0 +1,32 @@
+body{
+	background-color: #58b1e7;
+}
+
+#clock{
+	color: #fff;
+	font-size: 150px;
+	background-color: #000;
+
+	width: 80%;
+	padding: 0.5em 0em; /* on increasing left, right padding, the box size is also increasing, even though we have set its size to 80%. this is because, ""by default, width of an element = width of content only"" */
+	margin: 0px auto;
+	font-family: monospace, arial;
+	text-align: center;
+}
+
+#banner{
+	color: #fefefe;
+	font-size: 50px;
+	background-color: #EB6C52;
+	padding: 0.5em 0em;
+
+	width: 80%;
+	margin: 10% auto 0%;
+	font-family: monospace;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+span{
+	/*margin-left:175px; */
+}
